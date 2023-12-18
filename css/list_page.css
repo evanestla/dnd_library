@@ -1,0 +1,37 @@
+.table {
+    width: 80%;
+    background-color: transparent;
+    /* border: solid black; */
+}
+
+#table-filter-search {
+    display: flex;
+    border-radius: 5vw 5vw 0 0;
+    background-color: #8F2121;
+    padding: 1vw;
+    justify-content: space-between;
+}
+
+#table-filter-search input {
+    background-color: #B23939!important;
+    width: 30vw;
+    height: 5vw;
+    border-radius: 50px;
+    background-size: 5vw;
+    text-indent: 20%;
+    font-size: 3vw;
+}
+
+#table-filter-search button {
+    background-color: #B23939!important;
+    border: solid white 0.2vw;
+    width: 10vw;
+    height: 5vw;
+    border-radius: 50px;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0;
+    font-family: "modestoPoster";
+    color: white;
+    font-size: 2.5vw;
+}

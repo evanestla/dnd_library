@@ -1,0 +1,94 @@
+form {
+    padding: 1vw;
+    width: 60vw!important;
+    font-family: 'modestoPoster';
+    color: white!important;
+}
+
+form label {
+    color: white;
+    font-family: 'modestoExpendedLight';
+    font-size: 1.5em;
+
+}
+
+#hello_image img
+{
+    height: 30vw;
+    position: relative;
+}
+
+#form_header {
+    display: flex;
+    align-items: flex-end;
+}
+
+h2 {
+    font-family: 'modestoCondensedBold';
+    font-size: 500%;
+}
+
+h3 {
+    font-size: 300%;
+}
+
+@media only screen and (max-width: 992px) {
+    .center {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    h2 {
+        font-size: 300%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+}
+
+#login_button {
+    display: none;
+}
+
+.form_inputs {
+    background-color: black!important;
+    color:white!important;
+}
+
+.form_inputs::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+#connect {
+    gap: 1vw;
+}
+
+#connect button {
+    background-color: rgb(185, 13, 13);
+    border-color: rgb(116, 7, 7);
+}
+
+#connect a {
+    justify-content: center;
+    color: rgb(143, 34, 34);
+}
+
+#create_account_link {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 780px) {
+    form {
+        width: 80vw!important;
+        height: 55vh!important;
+    }
+}
+
+#isAdminCheckbox 
+{
+    height: 30px;
+    width: 30px;
+}

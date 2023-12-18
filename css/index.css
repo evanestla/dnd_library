@@ -1,0 +1,40 @@
+.row
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.row a img
+{
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+.row a {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'modestoPoster';
+    text-decoration: none;
+    align-items: center;
+    font-size: 400%;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 570px) {
+    .row a {
+        font-size: 15vw;
+        margin-top: 0;
+        width: 80%;
+        height: 50%
+    }
+}
